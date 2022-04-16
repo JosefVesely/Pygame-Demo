@@ -78,7 +78,7 @@ while running:
         ball.update()
 
         if ball.y > WINDOW_HEIGHT:
-            del ball
+            balls.remove(ball)
 
     # Render
     for ball in balls:
